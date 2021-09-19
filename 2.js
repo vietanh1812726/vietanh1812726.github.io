@@ -1,3 +1,4 @@
+
 function findLMV() {
     var str = document.getElementById('t1').value
     for (i = 0; i < str.length; i++) {
