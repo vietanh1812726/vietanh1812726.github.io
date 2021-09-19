@@ -1,5 +1,6 @@
 
 function findLMV() {
+    //Đặt các phần tử và so sánh với các điều kiện 
     var str = document.getElementById('t1').value
     for (i = 0; i < str.length; i++) {
     if (str.charAt(i) == 'a' || str.charAt(i) == 'e'
@@ -8,7 +9,7 @@ function findLMV() {
     }
     return ("No vowels found for string " + str);
    }
-
+// công thức tính nếu thoả mãn điều kiện và kết quả
    function reverse(num) {
     rnum = 0;
     temp = num;
